@@ -7,6 +7,12 @@
   <exclude-pattern>*/Base*</exclude-pattern>
   <exclude-pattern>/cache/*</exclude-pattern>
   <exclude-pattern>/log/*</exclude-pattern>
+  <exclude-pattern>*sfAdminThemejRollerPlugin*</exclude-pattern>
+  <exclude-pattern>*jquery*</exclude-pattern>
+  <exclude-pattern>*tiny_mce*</exclude-pattern>
+  <exclude-pattern>*old*</exclude-pattern>
+  <!-- Genereic rules -->
+  <rule ref="Generic.PHP.DisallowShortOpenTag"/>
   <!-- Tab indentation -->
   <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
   <!-- symfony uses 2 spaces to indent -->
